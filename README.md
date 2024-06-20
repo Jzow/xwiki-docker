@@ -180,7 +180,6 @@ Another solution is to use the Docker Compose files we provide.
 	-	If you don't have `wget` or prefer to use `curl`: `curl -fSL https://raw.githubusercontent.com/xwiki-contrib/docker-xwiki/master/15/mysql-tomcat/docker-compose.yml -o docker-compose.yml`
 -	`wget https://raw.githubusercontent.com/xwiki-contrib/docker-xwiki/master/15/mysql-tomcat/.env`: This contains default configuration values you should edit (version of XWiki to use, etc)
 	 -	If you don't have `wget` or prefer to use `curl`: `curl -fSL https://raw.githubusercontent.com/xwiki-contrib/docker-xwiki/master/15/mysql-tomcat/.env -o .env`
--	`docker-compose up`
 
 For reference here's a minimal Docker Compose file using MySQL that you could use as an example (full example [here](https://github.com/xwiki/xwiki-docker/blob/master/15/mysql-tomcat/docker-compose.yml)):
 
